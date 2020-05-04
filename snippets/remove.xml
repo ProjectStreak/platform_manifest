@@ -59,6 +59,7 @@
   <remove-project name="platform/development" />
   <remove-project name="platform/external/ARMComputeLibrary" />
   <remove-project name="platform/external/cldr" />
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libcxx" />
