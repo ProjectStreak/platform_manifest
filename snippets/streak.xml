@@ -54,6 +54,7 @@
   <project path="hardware/streak/interfaces" name="platform_hardware_streak_interfaces" remote="streak" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="streak" />  
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="streak" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="streak" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="streak" />  
