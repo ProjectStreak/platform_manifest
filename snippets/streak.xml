@@ -11,6 +11,7 @@
 
   <project path="art" name="platform_art" remote="streak" />
   <project path="bionic" name="platform_bionic" remote="streak" />
+  <project path="platform_testing" name="platform_platform_testing" remote="streak" />
 
   <!-- Build -->
   <project path="build/make" name="platform_build" remote="streak">
@@ -67,11 +68,8 @@
   <!-- System -->
   <project path="system/bt" name="platform_system_bt" remote="streak" />
   <project path="system/core" name="platform_system_core" remote="streak" />
-  <project path="system/extras" name="platform_system_extras" remote="streak" />
   <project path="system/netd" name="platform_system_netd" remote="streak" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="streak" />
-  <project path="system/tools/hidl" name="platform_system_tools_hidl" remote="streak" />
-  <project path="system/vold" name="platform_system_vold" remote="streak" />
 
   <!-- Vendor -->
   <project path="vendor/streak" name="platform_vendor_Streak" remote="streak" />

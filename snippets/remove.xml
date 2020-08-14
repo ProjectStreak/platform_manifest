@@ -55,6 +55,7 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/blueprint" />
+  <remove-project name="platform/platform_testing" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/development" />
   <remove-project name="platform/external/ARMComputeLibrary" />
@@ -161,12 +162,9 @@
   <remove-project name="platform/prebuilts/r8" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/extras" />
-  <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/timezone" />
-  <remove-project name="platform/system/vold" />
   <remove-project name="platform/test/mts" />
   <remove-project name="platform/test/vti/alert" />
   <remove-project name="platform/tools/ndkports" />
