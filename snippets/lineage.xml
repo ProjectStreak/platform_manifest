@@ -12,6 +12,7 @@
   <project path="external/bson" name="android_external_bson" remote="lineage" /> 
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="lineage" revision="master" clone-depth="1" />
   <project path="external/exfat" name="android_external_exfat" remote="lineage" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/libcxx" name="android_external_libcxx" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
