@@ -70,6 +70,7 @@
   <project path="system/core" name="platform_system_core" remote="streak" />
   <project path="system/netd" name="platform_system_netd" remote="streak" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="streak" />
+  <project path="system/vold" name="platform_system_vold" remote="streak" /> 
 
   <!-- Vendor -->
   <project path="vendor/streak" name="platform_vendor_Streak" remote="streak" />
