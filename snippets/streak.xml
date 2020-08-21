@@ -49,7 +49,7 @@
 
   <!-- General -->
   <project path="development" name="platform_development" remote="streak" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" remote="streak" />
+  <project path="prebuilts/clang/host/linux-x86/clang-12" name="platform_prebuilts_clang_host_linux-x86_clang-12" remote="streak" />
 
   <!-- Hardware -->
   <project path="hardware/streak/interfaces" name="platform_hardware_streak_interfaces" remote="streak" />
