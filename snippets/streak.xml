@@ -11,7 +11,6 @@
 
   <project path="art" name="platform_art" remote="streak" />
   <project path="bionic" name="platform_bionic" remote="streak" />
-  <project path="platform_testing" name="platform_platform_testing" remote="streak" />
 
   <!-- Build -->
   <project path="build/make" name="platform_build" remote="streak">
@@ -23,7 +22,6 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/blueprint" name="platform_build_blueprint" remote="streak" />
   <project path="build/soong" name="platform_build_soong" remote="streak">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -35,8 +33,6 @@
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="streak" />
 
   <!-- External -->
-  <project path="external/selinux" name="platform_external_selinux" remote="streak" />
-  <project path="external/skia" name="platform_external_skia" remote="streak" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="streak" />
 
   <!-- Frameworks -->
@@ -45,22 +41,17 @@
   <project path="frameworks/native" name="platform_frameworks_native" remote="streak" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="streak" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="streak" />
-  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="streak" />
 
   <!-- General -->
-  <project path="development" name="platform_development" remote="streak" />
-  <project path="prebuilts/clang/host/linux-x86/clang-12" name="platform_prebuilts_clang_host_linux-x86_clang-12" remote="streak" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" remote="streak" />
 
   <!-- Hardware -->
   <project path="hardware/streak/interfaces" name="platform_hardware_streak_interfaces" remote="streak" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="streak" />  
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="streak" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="streak" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="streak" />  
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="streak" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="streak" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="streak" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="streak" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="streak" />
@@ -69,7 +60,6 @@
   <project path="system/bt" name="platform_system_bt" remote="streak" />
   <project path="system/core" name="platform_system_core" remote="streak" />
   <project path="system/netd" name="platform_system_netd" remote="streak" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="streak" />
   <project path="system/vold" name="platform_system_vold" remote="streak" /> 
 
   <!-- Vendor -->
