@@ -31,6 +31,7 @@
   <!-- Device -->
   <project path="device/streak/sepolicy" name="platform_device_streak_sepolicy" remote="streak" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="streak" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="streak" />
 
   <!-- External -->
   <project path="external/sqlite" name="platform_external_sqlite" remote="streak" />
