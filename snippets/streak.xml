@@ -66,5 +66,6 @@
 
   <!-- Vendor -->
   <project path="vendor/streak" name="platform_vendor_Streak" remote="streak" />
+  <project path="vendor/lawnchair" name="platform_vendor_lawnchair" remote="streak" />
 
 </manifest>
