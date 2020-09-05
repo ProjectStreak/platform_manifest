@@ -33,6 +33,7 @@
   <project path="external/selinux" name="android_external_selinux" remote="lineage" />
   <project path="external/skia" name="android_external_skia" remote="lineage" />
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="lineage" />
+  <project path="external/toybox" name="android_external_toybox" remote="lineage" />
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
   <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/zip" name="android_external_zip" remote="lineage" />
@@ -137,6 +138,7 @@
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="lineage" />
   <project path="packages/modules/CaptivePortalLogin" name="android_packages_modules_CaptivePortalLogin" remote="lineage" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="lineage" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lineage" />
   <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
  
@@ -148,7 +150,6 @@
 
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="lineage" />
   <project path="system/timezone" name="android_system_timezone" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   
