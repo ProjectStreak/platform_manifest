@@ -54,6 +54,7 @@
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="streak" />  
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="streak" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="streak" />
+  <project path="packages/apps/Streak" name="platform_packages_apps_Streak" remote="streak" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="streak" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="streak" />
 
