@@ -38,6 +38,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="streak" />
 
   <!-- External -->
+  <project path="external/motorola/faceunlock" name="platform_external_motorola_faceunlock" remote="streak-gitlab" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="streak" />
 
   <!-- Frameworks -->
