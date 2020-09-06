@@ -9,6 +9,10 @@
            fetch="https://github.com/ProjectStreak-Devices"
            revision="ten" />
 
+  <remote  name="streak-gitlab"
+           fetch="https://gitlab.com/projectstreak"
+           revision="ten" />
+
   <project path="art" name="platform_art" remote="streak" />
   <project path="bionic" name="platform_bionic" remote="streak" />
 
