@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="streak"
+           fetch="https://github.com/ProjectStreak"
+           revision="eleven" />
+
+  <remote  name="device"
+           fetch="https://github.com/ProjectStreak-Devices"
+           revision="eleven" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- Build -->
+  <project path="build/make" name="platform_build" remote="streak">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" remote="streak">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device -->
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="streak" />
+  <project path="device/streak/sepolicy" name="platform_device_streak_sepolicy" remote="streak" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="streak" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="streak" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="streak" />
+
+  <!-- Hardware -->
+  <project path="hardware/streak/interfaces" name="platform_hardware_streak_interfaces" remote="streak" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="streak" />
+
+  <!-- Vendor -->
+  <project path="vendor/streak" name="platform_vendor_Streak" remote="streak" />
+  <project path="vendor/lawnchair" name="platform_vendor_lawnchair" remote="streak" />
+</manifest>
