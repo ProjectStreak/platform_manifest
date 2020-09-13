@@ -12,9 +12,13 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <project path="art" name="platform_art" remote="streak" />
   <project path="bionic" name="platform_bionic" remote="streak" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="streak" />
+  <project path="development" name="platform_development" remote="streak" />
 
   <!-- Build -->
+  <project path="build/blueprint" name="platform_build_blueprint" remote="streak" />
   <project path="build/make" name="platform_build" remote="streak">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -34,25 +38,49 @@
   <project path="device/streak/sepolicy" name="platform_device_streak_sepolicy" remote="streak" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="streak" />
 
+  <!-- External -->
+  <project path="external/guice" name="platform_external_guice" remote="streak" />
+  <project path="external/selinux" name="platform_external_selinux" remote="streak" />
+  <project path="external/skia" name="platform_external_skia" remote="streak" />
+  <project path="external/sqlite" name="platform_external_sqlite" remote="streak" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="streak" />
+
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="streak" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="streak" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="streak" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="streak" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="streak" />
+
+  <!-- General -->
+  <project path="platform_testing" name="platform_platform_testing" remote="streak" />
+  <project path="prebuilts/abi-dumps/vndk" name="platform_prebuilts_abi-dumps_vndk" remote="streak" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="streak" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="streak" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="streak" />
   <project path="hardware/streak/interfaces" name="platform_hardware_streak_interfaces" remote="streak" />
 
   <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="streak" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="streak" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="streak" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="streak" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="streak" />
 
   <!-- System -->
   <project path="system/bt" name="platform_system_bt" remote="streak" />
   <project path="system/core" name="platform_system_core" remote="streak" />
+  <project path="system/incremental_delivery" name="platform_system_incremental_delivery" remote="streak" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="streak" />
+  <project path="system/vold" name="platform_system_vold" remote="streak" />
+
+  <!-- Tools -->
+  <project path="tools/metalava" name="platform_tools_metalava" remote="streak" />  
 
   <!-- Vendor -->
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="streak" />
   <project path="vendor/streak" name="platform_vendor_Streak" remote="streak" />
   <project path="vendor/lawnchair" name="platform_vendor_lawnchair" remote="streak" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_bluetooth_ext" remote="streak" />

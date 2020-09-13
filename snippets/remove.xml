@@ -51,18 +51,36 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- Build -->
+  <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/development" />
+
+  <!-- External -->
+  <remove-project name="platform/external/guice" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/tinycompress" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
+
+  <!-- General -->
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <remove-project name="platform/platform_testing" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/bt" />
@@ -74,11 +92,20 @@
   <remove-project name="platform/hardware/qcom/sdm845/display" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/Bluetooth" /> 
+  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
 
   <!-- System -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/incremental_delivery" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/vold" />
+
+  <!-- Tools -->
+  <remove-project name="platform/tools/metalava" />
 
 </manifest>
