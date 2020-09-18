@@ -97,5 +97,4 @@
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="streak" />
   <project path="vendor/streak" name="platform_vendor_Streak" remote="streak" />
-  <project path="vendor/lawnchair" name="platform_vendor_lawnchair" remote="streak" />
 </manifest>
