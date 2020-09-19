@@ -76,6 +76,7 @@
   <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" remote="streak" revision="eleven-sdm845" />
   <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio" remote="streak" revision="eleven-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" remote="streak" revision="eleven-sm8150" />
+  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom-caf_wlan" remote="streak" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="streak" />
