@@ -54,7 +54,6 @@
 
   <!-- General -->
   <project path="platform_testing" name="platform_platform_testing" remote="streak" />
-  <project path="prebuilts/abi-dumps/vndk" name="platform_prebuilts_abi-dumps_vndk" remote="streak" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="streak" />
@@ -82,20 +81,28 @@
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="streak" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="streak" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="streak" />
+  <project path="packages/apps/Streak" name="platform_packages_apps_Streak" remote="streak" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="streak" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="streak" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="platform_prebuilts_abi-dumps_vndk" remote="streak" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="streak" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="streak" />
 
   <!-- System -->
   <project path="system/bt" name="platform_system_bt" remote="streak" />
   <project path="system/core" name="platform_system_core" remote="streak" />
   <project path="system/incremental_delivery" name="platform_system_incremental_delivery" remote="streak" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="streak" />
+  <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" remote="streak" />
   <project path="system/vold" name="platform_system_vold" remote="streak" />
 
   <!-- Tools -->
-  <project path="tools/metalava" name="platform_tools_metalava" remote="streak" />  
+  <project path="tools/metalava" name="platform_tools_metalava" remote="streak" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="streak" />
   <project path="vendor/streak" name="platform_vendor_Streak" remote="streak" />
+  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="streak" />
 </manifest>

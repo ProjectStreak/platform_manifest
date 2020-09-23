@@ -33,6 +33,9 @@
   <!-- Packages -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
+  <!-- Tools -->
+  <project path="prebuilts/tools-streak" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="lineage" revision="lineage-18.0" />
+
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="lineage" />
