@@ -85,7 +85,6 @@
   <!-- Vendor -->
   <project path="vendor/streak" name="platform_vendor_Streak" remote="streak" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="streak" />
-  <project path="vendor/qcom/opensource/display-commonsys-intf" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="streak" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="streak" />
 
 </manifest>
