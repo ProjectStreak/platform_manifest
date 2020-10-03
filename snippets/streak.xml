@@ -62,6 +62,9 @@
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="streak" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="streak" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="streak" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="streak" />  
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="streak" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="streak" />
   <project path="packages/apps/StreakSettings" name="platform_packages_apps_Streak" remote="streak" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="streak" />
