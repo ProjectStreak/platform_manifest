@@ -56,6 +56,21 @@
   <!-- Hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="streak" />
   <project path="hardware/streak/interfaces" name="platform_hardware_streak_interfaces" remote="streak" />
+  <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" remote="streak">
+    <!-- Add guard for AOSP hardware/qcom directory. -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- For AOSP SDM845/SM8150, we override os_pickup.mk. -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <!-- Add guards for CAF repositories. -->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom-caf_sm8150_audio" remote="streak" />
+  <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" remote="streak" />
+  <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom-caf_sm8150_media" remote="streak" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="streak" />
