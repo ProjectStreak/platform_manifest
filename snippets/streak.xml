@@ -12,6 +12,10 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="streak-gitlab"
+           fetch="https://gitlab.com/projectstreak"
+           revision="eleven" />
+
   <project path="art" name="platform_art" remote="streak" />
   <project path="bionic" name="platform_bionic" remote="streak" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="streak" />
@@ -39,6 +43,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="streak" />
 
   <!-- External -->
+  <project path="external/motorola/faceunlock" name="platform_external_motorola_faceunlock" remote="streak-gitlab" />
   <project path="external/selinux" name="platform_external_selinux" remote="streak" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="streak" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="streak" />
