@@ -44,7 +44,6 @@
   <project path="external/motorola/faceunlock" name="platform_external_motorola_faceunlock" remote="streak-gitlab" />
   <project path="external/selinux" name="platform_external_selinux" remote="streak" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="streak" />
-  <project path="external/tinycompress" name="platform_external_tinycompress" remote="streak" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="streak" />
