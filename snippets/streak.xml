@@ -17,11 +17,9 @@
            revision="eleven" />
 
   <project path="art" name="platform_art" remote="streak" />
-  <project path="bionic" name="platform_bionic" remote="streak" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="streak" />
 
   <!-- Build -->
-  <project path="build/blueprint" name="platform_build_blueprint" remote="streak" />
   <project path="build/make" name="platform_build" remote="streak">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
