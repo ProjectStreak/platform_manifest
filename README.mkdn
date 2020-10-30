@@ -43,7 +43,7 @@ In order to build, use this command:
    mka streak -j$(nproc --all)
 ```
 
-Applying for Maintainership
+After building:
 ---------------
 
-If you have successfully built ProjectStreak for your device and you want to officially maintain it, feel free to contact @san9scurtu on Telegram.
+Be sure to check our [**documents repo**](https://github.com/ProjectStreak/platform_StreakStuff) for any queries.
