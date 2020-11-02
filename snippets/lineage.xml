@@ -6,7 +6,6 @@
            revision="refs/heads/lineage-18.0" />
 
   <!-- Build -->
-  <project path="bionic" name="android_bionic" remote="lineage" />
   <project path="build/blueprint" name="android_build_blueprint" remote="lineage" />
 
   <!-- External -->

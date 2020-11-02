@@ -21,6 +21,7 @@
           revision="eleven" />
 
   <project path="art" name="platform_art" remote="streak" />
+  <project path="bionic" name="platform_bionic" remote="streak" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="streak" />
 
   <!-- Build -->
