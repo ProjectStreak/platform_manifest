@@ -16,10 +16,6 @@
            fetch="https://gitlab.com/projectstreak"
            revision="eleven" />
 
-  <remote name="private"
-          fetch="ssh://git@github.com/projectstreak"
-          revision="eleven" />
-
   <project path="art" name="platform_art" remote="streak" />
   <project path="bionic" name="platform_bionic" remote="streak" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="streak" />
@@ -86,7 +82,7 @@
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="streak" />  
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="streak" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="streak" />
-  <project path="packages/apps/StreakSettings" name="platform_packages_apps_Streak" remote="private" />
+  <project path="packages/apps/StreakSettings" name="platform_packages_apps_Streak" remote="streak" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="streak" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="streak" />
 
