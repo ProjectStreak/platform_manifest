@@ -1,3 +1,5 @@
+![ProjectStreak](https://raw.githubusercontent.com/ProjectStreak/platform_manifest/eleven/streak.jpg)
+
 ProjectStreak
 ===========
 
