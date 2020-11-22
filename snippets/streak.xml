@@ -102,4 +102,7 @@
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" remote="streak" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="streak" />
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="streak" />
+  <project path="vendor/prebuilts" name="platform_vendor_apex" remote="streak-gitlab" />
+  <project path="vendor/google/gms" name="platform_vendor_google_gms" remote="streak-gitlab" />
+  <project path="vendor/google/pixel" name="platform_vendor_google_pixel" remote="streak-gitlab" />
 </manifest>
