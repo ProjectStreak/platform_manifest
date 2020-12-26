@@ -103,7 +103,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="streak" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="streak" />
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="streak" />
-  <project path="vendor/prebuilts" name="platform_vendor_apex" remote="streak-gitlab" />
-  <project path="vendor/google/gms" name="platform_vendor_google_gms" remote="streak-gitlab" />
-  <project path="vendor/google/pixel" name="platform_vendor_google_pixel" remote="streak-gitlab" />
+  <project path="vendor/prebuilts" name="platform_vendor_apex" remote="streak-gitlab" clone-depth="1" />
+  <project path="vendor/google/gms" name="platform_vendor_google_gms" remote="streak-gitlab" clone-depth="1" />
+  <project path="vendor/google/pixel" name="platform_vendor_google_pixel" remote="streak-gitlab" clone-depth="1" />
 </manifest>
