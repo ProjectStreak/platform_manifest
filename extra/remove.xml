@@ -115,6 +115,7 @@
   <!-- system -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libziparchive" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/tools/mkbootimg" />

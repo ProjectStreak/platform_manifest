@@ -33,17 +33,17 @@
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="streak-sc" />
 
   <!-- device -->
-  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="streak-sc" /> 
-  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="streak-sc" /> 
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="streak-sc" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="streak-sc" />
   <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy" remote="streak-sc" revision="twelve-legacy" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" remote="streak-sc" revision="twelve-legacy-um" />
-  <project path="device/streak/sepolicy" name="platform_device_streak_sepolicy" remote="streak-sc" /> 
+  <project path="device/streak/sepolicy" name="platform_device_streak_sepolicy" remote="streak-sc" />
 
   <!-- external -->
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="streak-sc" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="streak-sc" />
   <project path="external/mksh" name="platform_external_mksh" remote="streak-sc" />
-  <project path="external/selinux" name="platform_external_selinux" remote="streak-sc"  /> 
+  <project path="external/selinux" name="platform_external_selinux" remote="streak-sc"  />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="streak-sc"  />
 
   <!-- frameworks -->
@@ -73,6 +73,7 @@
 
   <!-- system -->
   <project path="system/core" name="platform_system_core" remote="streak-sc" />
+  <project path="system/netd" name="platform_system_netd" remote="streak-sc" />
   <project path="system/security" name="platform_system_security" remote="streak-sc" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="streak-sc" />
   <project path="system/vold" name="platform_system_vold" remote="streak-sc" />
