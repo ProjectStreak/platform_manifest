@@ -105,6 +105,7 @@
 
   <!-- vendor -->
   <project path="vendor/streak" name="platform_vendor_streak" remote="streak-sc" />
+  <project path="vendor/support" name="platform_vendor_support" remote="streak-sc" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="streak-sc" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="streak-sc" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="streak-sc" />
