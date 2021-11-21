@@ -49,6 +49,7 @@
   <!-- frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="streak-sc" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="streak-sc" />
+  <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" remote="streak-sc" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="streak-sc" />
 
   <!-- hardware -->
