@@ -114,6 +114,7 @@
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="streak-sc" />
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="streak-sc" />
   <project path="packages/modules/adb" name="platform_packages_modules_adb" groups="pdk" remote="streak-sc" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider"  remote="streak-sc" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="streak-sc" />
 
   <!-- prebuilts -->
