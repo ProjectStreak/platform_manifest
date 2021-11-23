@@ -128,6 +128,7 @@
   <project path="system/vold" name="platform_system_vold" remote="streak-sc" />
 
   <!-- vendor -->
+  <project path="vendor/google/sounds/" name="platform_vendor_google_sounds" remote="streak-sc" />
   <project path="vendor/streak" name="platform_vendor_streak" remote="streak-sc" />
   <project path="vendor/support" name="platform_vendor_support" remote="streak-sc" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="streak-sc" />
