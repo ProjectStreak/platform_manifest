@@ -41,6 +41,7 @@
 
   <!-- external -->
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="streak-sc" />
+  <project path="external/exfatprogs" name="platform_external_exfatprogs" remote="streak-sc" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="streak-sc" />
   <project path="external/mksh" name="platform_external_mksh" remote="streak-sc" />
   <project path="external/selinux" name="platform_external_selinux" remote="streak-sc"  />
