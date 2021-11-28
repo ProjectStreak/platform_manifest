@@ -104,6 +104,7 @@
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="streak-sc" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="streak-sc" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="streak-sc" />
+  <project path="hardware/nxp/secure_element" name="platform_hardware_nxp_secure_element" remote="streak-sc" />
   <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="streak-sc" />
   <project path="hardware/xiaomi" name="platform_hardware_xiaomi" remote="streak-sc" />
 
