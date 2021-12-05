@@ -6,7 +6,7 @@
            revision="refs/heads/twelve" />
 
   <remote  name="streak-sc"
-           fetch="ssh://git@github.com/ProjectStreak-SC"
+           fetch="https://github.com/ProjectStreak-SC"
            revision="refs/heads/twelve" />
 
   <remote  name="streak-sc-gitlab"
