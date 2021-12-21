@@ -126,6 +126,7 @@
 
   <!-- system -->
   <project path="system/core" name="platform_system_core" remote="streak" />
+  <project path="system/libhwbinder" name="platform_system_libhwbinder" remote="streak" />
   <project path="system/netd" name="platform_system_netd" remote="streak" />
   <project path="system/security" name="platform_system_security" remote="streak" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="streak" />
