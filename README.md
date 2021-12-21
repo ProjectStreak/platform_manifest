@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/ProjectStreak-SC/platform_manifest -b twelve
+repo init -u https://github.com/ProjectStreak/platform_manifest -b twelve
 
 # Sync
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
