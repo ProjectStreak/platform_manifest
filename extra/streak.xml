@@ -108,6 +108,7 @@
   <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="streak" revision="twelve-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/media" name="platform_hardware_qcom_media" groups="qcom" remote="streak" revision="twelve-caf-sm8350" />
   <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom_thermal" remote="streak" revision="twelve-caf" />
+  <project path="hardware/qcom-caf/vr" name="platform_hardware_qcom_vr" remote="streak" revision="twelve-caf"/>
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="streak" revision="twelve-caf"/>
   <project path="hardware/qcom/sdm845/display" name="platform_hardware_qcom_display" groups="generic_fs,qcom_sdm845" remote="streak" revision="twelve-sdm845" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="streak" />
