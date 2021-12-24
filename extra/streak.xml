@@ -116,6 +116,7 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="streak" />
   <project path="hardware/nxp/secure_element" name="platform_hardware_nxp_secure_element" remote="streak" />
   <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="streak" />
+  <project path="hardware/streak/interfaces" name="platform_hardware_streak_interfaces" remote="streak" />
 
   <!-- packages -->
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="streak" />
