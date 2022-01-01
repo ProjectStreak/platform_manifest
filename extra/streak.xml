@@ -118,6 +118,7 @@
   <project path="hardware/streak/interfaces" name="platform_hardware_streak_interfaces" remote="streak" />
 
   <!-- packages -->
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="streak" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="streak" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="streak" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="streak" />
@@ -133,6 +134,7 @@
   <project path="prebuilts/tools-streak" name="platform_prebuilts_tools-streak" remote="streak" />
 
   <!-- system -->
+  <project path="system/bt" name="platform_system_bt" remote="streak" />
   <project path="system/core" name="platform_system_core" remote="streak" />
   <project path="system/libhwbinder" name="platform_system_libhwbinder" remote="streak" />
   <project path="system/netd" name="platform_system_netd" remote="streak" />
@@ -153,7 +155,11 @@
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="streak" revision="twelve-sn100x" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="streak" revision="twelve-sn100x" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="streak" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_commonsys-intf_bluetooth" remote="streak" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="streak" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="streak" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="streak" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_commonsys_system_bt" remote="streak" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="streak" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="streak" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="streak" />
