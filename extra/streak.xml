@@ -130,6 +130,7 @@
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="streak" />
   <project path="packages/modules/adb" name="platform_packages_modules_adb" groups="pdk" remote="streak" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider"  remote="streak" />
+  <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="streak" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="streak" />
 
   <!-- prebuilts -->
