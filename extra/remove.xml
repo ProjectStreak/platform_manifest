@@ -91,12 +91,12 @@
   <remove-project name="platform/frameworks/opt/net/wifi" />
 
   <!-- hardware -->
-  <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/libhardware_legacy" />
-  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/google/gchips" />
   <remove-project name="platform/hardware/google/graphics/common" />
   <remove-project name="platform/hardware/google/graphics/gs101" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/nxp/secure_element" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/display" />
