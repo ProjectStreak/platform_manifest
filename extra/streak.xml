@@ -3,7 +3,7 @@
 
   <remote  name="streak"
            fetch="https://github.com/ProjectStreak"
-           review="https://review.ejbtrd.pl/"
+           review="https://review.projectstreak.pl/"
            revision="refs/heads/twelve" />
 
   <remote  name="streak-gitlab"
