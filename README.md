@@ -24,3 +24,5 @@ $ lunch streak_$device-userdebug
 # Build the code
 $ mka bacon -jX
 ```
+
+Patches are always welcome! Please submit your patches to our [gerrit](https://review.projectstreak.pl).
