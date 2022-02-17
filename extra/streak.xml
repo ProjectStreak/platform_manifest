@@ -10,7 +10,7 @@
            fetch="https://gitlab.com/ProjectStreak"
            revision="refs/heads/twelve" />
 
-  <remote  name="streak-devices"
+  <remote  name="ProjectStreak-Devices"
            fetch="https://github.com/ProjectStreak-Devices"
            revision="refs/heads/twelve" />
 
