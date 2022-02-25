@@ -113,6 +113,7 @@
   <project path="hardware/qcom-caf/vr" name="platform_hardware_qcom_vr" remote="streak" revision="twelve-caf"/>
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="streak" revision="twelve-caf"/>
   <project path="hardware/qcom/sdm845/display" name="platform_hardware_qcom_display" groups="generic_fs,qcom_sdm845" remote="streak" revision="twelve-sdm845" />
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="streak"/>
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="streak" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="streak" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="streak" />
