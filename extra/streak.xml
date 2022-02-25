@@ -44,6 +44,7 @@
   <!-- device -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="streak" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="streak" />
+  <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy" remote="streak" revision="twelve-legacy" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" remote="streak" revision="twelve-legacy-um" />
   <project path="device/streak/sepolicy" name="platform_device_streak_sepolicy" remote="streak" />
 
