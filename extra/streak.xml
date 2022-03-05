@@ -177,6 +177,12 @@
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="streak" />
   <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="streak" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="platform_vendor_qcom_opensource_wfd-commonsys" remote="streak" />
+  <project path="vendor/qrcode/zxing" name="platform_vendor_qrcode_zxing" remote="streak">
+    <linkfile src="zxing-android-embedded/res-orig/*" dest="vendor/support/res-orig" />
+    <linkfile src="zxing-android-embedded/res/*" dest="vendor/support/res-qr" />
+    <linkfile src="zxing-android-embedded/src/com/google/zxing/*" dest="vendor/support/src/com/google/zxing" />
+    <linkfile src="zxing-android-embedded/src/com/journeyapps/barcodescanner/*" dest="vendor/support/src/com/journeyapps/barcodescanner" />
+  </project>
   <project path="vendor/streak" name="platform_vendor_streak" remote="streak" />
   <project path="vendor/support" name="platform_vendor_support" remote="streak" />
   <project path="vendor/themes" name="platform_vendor_themes" remote="streak" />
