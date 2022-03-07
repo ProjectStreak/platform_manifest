@@ -5,10 +5,132 @@
            fetch="https://github.com/ProjectStreak"
            revision="refs/heads/twelve.one" />
 
+  <remote  name="streak-gitlab"
+           fetch="https://gitlab.com/ProjectStreak"
+           revision="refs/heads/twelve" />
+
   <!-- rootdir -->
   <project path="manifest" name="platform_manifest" remote="streak" />
+  <project path="bionic" name="platform_bionic" remote="streak" />
+
+  <!-- build -->
+  <project path="build/make" name="platform_build" remote="streak" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="streak" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- device -->
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="streak" />
+  <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy" remote="streak" revision="twelve.one-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" remote="streak" revision="twelve.one-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="streak" />
+  <project path="device/streak/sepolicy" name="platform_device_streak_sepolicy" remote="streak" />
+
+  <!-- external -->
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="streak" />
+  <project path="external/exfatprogs" name="platform_external_exfatprogs" remote="streak" />
+
+  <!-- hardware -->
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="streak" />
+  <project path="hardware/qcom-caf/bootctrl" name="platform_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="streak" revision="twelve.one-caf" />
+  <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" remote="streak" revision="twelve.one" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/nxp/Android.bp" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="streak" revision="twelve-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom_media" groups="qcom" remote="streak" revision="twelve-caf-msm8998" />
+  <project path="hardware/qcom-caf/sdm660/media" name="platform_hardware_qcom_media" groups="qcom,qcom_media" remote="streak" revision="twelve-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom_display" groups="qcom,qcom_display" remote="streak" revision="twelve-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="streak" revision="twelve-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom_media" groups="qcom" remote="streak" revision="twelve-caf-sdm845" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="streak" revision="twelve-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom_media" groups="qcom" remote="streak" revision="twelve-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="streak" revision="twelve-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="platform_hardware_qcom_media" groups="qcom" remote="streak" revision="twelve-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="streak" revision="twelve-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/media" name="platform_hardware_qcom_media" groups="qcom" remote="streak" revision="twelve-caf-sm8350" />
+  <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom_thermal" remote="streak" revision="twelve-caf" />
+  <project path="hardware/qcom-caf/vr" name="platform_hardware_qcom_vr" remote="streak" revision="twelve-caf"/>
+  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="streak" revision="twelve-caf"/>
+  <project path="hardware/qcom/sdm845/display" name="platform_hardware_qcom_display" groups="generic_fs,qcom_sdm845" remote="streak" revision="twelve-sdm845" />
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="streak" revision="twelve" />
+
+  <!-- packages -->
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="streak" />
+  <project path="packages/apps/StreakPrebuilts" name="platform_packages_apps_StreakPrebuilts" remote="streak" />
+  <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="streak" />
+
+  <!-- prebuilts -->
+  <project path="prebuilts/tools-streak" name="platform_prebuilts_tools-streak" remote="streak" />
+
+  <!-- system -->
+  <project path="system/security" name="platform_system_security" remote="streak" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="streak" />
+  <project path="system/vold" name="platform_system_vold" remote="streak" />
 
   <!-- vendor -->
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="streak" revision="twelve" />
+  <project path="vendor/gapps" name="platform_vendor_gapps" remote="streak-gitlab" />
+  <project path="vendor/google/sounds/" name="platform_vendor_google_sounds" remote="streak" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="streak" revision="twelve" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="streak" revision="twelve" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="streak" revision="twelve" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="streak" revision="twelve" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="streak" revision="twelve-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="streak" revision="twelve-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="streak" revision="twelve-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="streak" revision="twelve-sn100x" />
+  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_commonsys-intf_bluetooth" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_commonsys-intf_display" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="platform_vendor_qcom_opensource_commonsys_display" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_commonsys_system_bt" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="platform_vendor_qcom_opensource_thermal-engine" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="platform_vendor_qcom_opensource_wfd-commonsys" remote="streak" revision="twelve" />
   <project path="vendor/streak" name="platform_vendor_streak" remote="streak" />
 
 </manifest>

@@ -1,3 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!-- rootdir -->
+  <remove-project name="platform/bionic" />
+
+  <!-- build -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+
+  <!-- external -->
+  <remove-project name="platform/external/tinycompress" />
+
+  <!-- hardware -->
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+
+  <!-- packages -->
+  <remove-project name="platform/packages/apps/Settings" />
+
+  <!-- system -->
+  <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/vold" />
+
 </manifest>
