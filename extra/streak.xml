@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="streak"
+           fetch="https://github.com/ProjectStreak"
+           revision="refs/heads/twelve.one" />
+
+  <!-- rootdir -->
+  <project path="manifest" name="platform_manifest" remote="streak" />
+
+  <!-- vendor -->
+  <project path="vendor/streak" name="platform_vendor_streak" remote="streak" />
+
+</manifest>
