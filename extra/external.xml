@@ -10,6 +10,15 @@
            fetch="https://github.com/ArrowOS"
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-12.0" />
+  
+  <remote  name="pixel"
+           fetch="https://github.com/PixelExperience"
+           revision="twelve"
+           review="gerrit.pixelexperience.org" />
+  
+  <remote  name="pixel-gitlab-self-hosted"
+           fetch="https://gitlab.pixelexperience.org/android"
+           revision="twelve" />
 
   <!-- external -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
@@ -17,9 +26,13 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="arrow" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="arrow" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
 
+  <!-- packages -->
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
+  
   <!-- system -->
   <project path="system/libziparchive" name="android_system_libziparchive" remote="arrow" />
   <project path="system/media" name="android_system_media" remote="arrow" />
