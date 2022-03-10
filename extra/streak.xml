@@ -40,6 +40,7 @@
   <project path="external/exfatprogs" name="platform_external_exfatprogs" remote="streak" />
 
   <!-- hardware -->
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="streak" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="streak" />
   <project path="hardware/qcom-caf/bootctrl" name="platform_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="streak" revision="twelve.one-caf" />
   <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" remote="streak" revision="twelve.one" >
