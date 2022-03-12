@@ -13,6 +13,9 @@
   <project path="manifest" name="platform_manifest" remote="streak" />
   <project path="bionic" name="platform_bionic" remote="streak" />
 
+  <!-- bootable -->
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="streak" />
+
   <!-- build -->
   <project path="build/make" name="platform_build" remote="streak" >
     <copyfile src="core/root.mk" dest="Makefile" />
