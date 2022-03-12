@@ -39,6 +39,9 @@
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="streak" />
   <project path="external/exfatprogs" name="platform_external_exfatprogs" remote="streak" />
 
+  <!-- frameworks -->
+  <project path="frameworks/base" name="platform_frameworks_base" remote="streak" />
+
   <!-- hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="streak" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="streak" />
