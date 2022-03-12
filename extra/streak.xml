@@ -38,6 +38,7 @@
   <!-- external -->
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="streak" />
   <project path="external/exfatprogs" name="platform_external_exfatprogs" remote="streak" />
+  <project path="external/json-c" name="platform_external_json-c" remote="streak" />
 
   <!-- frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="streak" />
