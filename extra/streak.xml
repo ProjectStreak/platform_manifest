@@ -44,7 +44,9 @@
   <project path="external/json-c" name="platform_external_json-c" remote="streak" />
 
   <!-- frameworks -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="streak" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="streak" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="streak" />
 
   <!-- hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="streak" />
