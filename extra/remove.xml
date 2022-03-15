@@ -91,9 +91,11 @@
   <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- packages -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Settings" />
 
   <!-- system -->
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
