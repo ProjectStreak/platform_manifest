@@ -39,9 +39,10 @@
   <project path="device/streak/sepolicy" name="platform_device_streak_sepolicy" remote="streak" />
 
   <!-- external -->
-  <project path="external/tinycompress" name="platform_external_tinycompress" remote="streak" />
   <project path="external/exfatprogs" name="platform_external_exfatprogs" remote="streak" />
   <project path="external/json-c" name="platform_external_json-c" remote="streak" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="streak" />
+  <project path="external/tinyxml" name="platform_external_tinyxml" remote="streak"  />
 
   <!-- frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="streak" />
