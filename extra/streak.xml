@@ -155,5 +155,6 @@
   </project>
   <project path="vendor/streak" name="platform_vendor_streak" remote="streak" />
   <project path="vendor/support" name="platform_vendor_support" remote="streak" />
+  <project path="vendor/themes" name="platform_vendor_themes" remote="streak" />
 
 </manifest>
