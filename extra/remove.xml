@@ -75,6 +75,9 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- external -->
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
 
   <!-- frameworks -->
@@ -93,13 +96,16 @@
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/modules/adb" />
 
   <!-- system -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
 
 </manifest>
