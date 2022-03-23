@@ -7,7 +7,7 @@
 
   <remote  name="streak-gitlab"
            fetch="https://gitlab.com/ProjectStreak"
-           revision="refs/heads/twelve" />
+           revision="refs/heads/twelve.one" />
 
   <!-- rootdir -->
   <project path="manifest" name="platform_manifest" remote="streak" />
