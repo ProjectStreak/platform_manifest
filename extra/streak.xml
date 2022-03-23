@@ -93,17 +93,17 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="streak" revision="twelve-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom_media" groups="qcom" remote="streak" revision="twelve-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="streak" revision="twelve-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/media" name="platform_hardware_qcom_media" groups="qcom" remote="streak" revision="twelve-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve.one-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="streak" revision="twelve.one-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="platform_hardware_qcom_media" groups="qcom" remote="streak" revision="twelve.one-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8350/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="streak" revision="twelve-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/media" name="platform_hardware_qcom_media" groups="qcom" remote="streak" revision="twelve-caf-sm8350" />
-  <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom_thermal" remote="streak" revision="twelve-caf" />
-  <project path="hardware/qcom-caf/vr" name="platform_hardware_qcom_vr" remote="streak" revision="twelve-caf"/>
-  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="streak" revision="twelve-caf"/>
-  <project path="hardware/qcom/sdm845/display" name="platform_hardware_qcom_display" groups="generic_fs,qcom_sdm845" remote="streak" revision="twelve-sdm845" />
-  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="streak" revision="twelve" />
+  <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom_thermal" remote="streak" revision="twelve.one-caf" />
+  <project path="hardware/qcom-caf/vr" name="platform_hardware_qcom_vr" remote="streak" revision="twelve.one-caf"/>
+  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="streak" revision="twelve.one-caf"/>
+  <project path="hardware/qcom/sdm845/display" name="platform_hardware_qcom_display" groups="generic_fs,qcom_sdm845" remote="streak" revision="twelve.one-sdm845" />
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="streak" />
 
   <!-- packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="streak" />
@@ -127,33 +127,33 @@
   <project path="system/vold" name="platform_system_vold" remote="streak" />
 
   <!-- vendor -->
-  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="streak" revision="twelve" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="streak" />
   <project path="vendor/gapps" name="platform_vendor_gapps" remote="streak-gitlab" />
   <project path="vendor/google/sounds/" name="platform_vendor_google_sounds" remote="streak" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="streak" revision="twelve" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="streak" revision="twelve" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="streak" revision="twelve" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="streak" revision="twelve" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="streak" revision="twelve-pn5xx" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="streak" revision="twelve-pn5xx" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="streak" revision="twelve-sn100x" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="streak" revision="twelve-sn100x" />
-  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="streak" revision="twelve" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="streak"/>
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="streak" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="streak" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="streak" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="streak" revision="twelve.one-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="streak" revision="twelve.one-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="streak" revision="twelve.one-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="streak" revision="twelve.one-sn100x" />
+  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="streak" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="streak" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_commonsys-intf_display" remote="streak" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_bluetooth_ext" remote="streak" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="platform_vendor_qcom_opensource_commonsys_display" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="platform_vendor_qcom_opensource_commonsys_display" remote="streak" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_packages_apps_Bluetooth" remote="streak" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" remote="streak" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="streak" revision="twelve" />
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="streak" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="streak" />
   <project path="vendor/qcom/opensource/display" name="platform_vendor_qcom_opensource_display" remote="streak" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="streak" revision="twelve" />
-  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="streak" revision="twelve" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="platform_vendor_qcom_opensource_thermal-engine" remote="streak" revision="twelve" />
-  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="streak" revision="twelve" />
-  <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="streak" revision="twelve" />
-  <project path="vendor/qcom/opensource/wfd-commonsys" name="platform_vendor_qcom_opensource_wfd-commonsys" remote="streak" revision="twelve" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="streak" />
+  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="streak" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="platform_vendor_qcom_opensource_thermal-engine" remote="streak" />
+  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="streak" />
+  <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="streak" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="platform_vendor_qcom_opensource_wfd-commonsys" remote="streak" />
   <project path="vendor/qrcode/zxing" name="platform_vendor_qrcode_zxing" remote="streak">
     <linkfile src="zxing-android-embedded/res-orig/*" dest="vendor/support/res-orig" />
     <linkfile src="zxing-android-embedded/res/*" dest="vendor/support/res-qr" />
