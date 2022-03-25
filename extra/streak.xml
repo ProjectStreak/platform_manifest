@@ -44,6 +44,7 @@
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="streak" />
   <project path="external/json-c" name="platform_external_json-c" remote="streak" />
   <project path="external/mksh" name="platform_external_mksh" remote="streak" />
+  <project path="external/setupcompat" name="platform_external_setupcompat" remote="streak" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="streak" />
   <project path="external/tinyxml" name="platform_external_tinyxml" remote="streak"  />
 
