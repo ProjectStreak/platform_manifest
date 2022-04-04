@@ -99,9 +99,9 @@
   <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve.one-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="streak" revision="twelve.one-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/media" name="platform_hardware_qcom_media" groups="qcom" remote="streak" revision="twelve.one-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="streak" revision="twelve-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8350/media" name="platform_hardware_qcom_media" groups="qcom" remote="streak" revision="twelve-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve.one-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="streak" revision="twelve.one-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/media" name="platform_hardware_qcom_media" groups="qcom" remote="streak" revision="twelve.one-caf-sm8350" />
   <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom_thermal" remote="streak" revision="twelve.one-caf" />
   <project path="hardware/qcom-caf/vr" name="platform_hardware_qcom_vr" remote="streak" revision="twelve.one-caf"/>
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="streak" revision="twelve.one-caf"/>
