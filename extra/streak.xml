@@ -154,6 +154,7 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="streak" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="streak" />
   <project path="vendor/qcom/opensource/display" name="platform_vendor_qcom_opensource_display" remote="streak" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="platform_vendor_qcom_opensource_healthd-ext" remote="streak" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="streak" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="streak" />
   <project path="vendor/qcom/opensource/thermal-engine" name="platform_vendor_qcom_opensource_thermal-engine" remote="streak" />
