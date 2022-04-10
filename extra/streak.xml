@@ -158,12 +158,12 @@
   
   <!-- vendor/qcom -->
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="streak" />
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="streak" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_commonsys-intf_bluetooth" remote="streak" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_commonsys-intf_display" remote="streak" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_bluetooth_ext" remote="streak" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="streak" />
   <project path="vendor/qcom/opensource/commonsys/display" name="platform_vendor_qcom_opensource_commonsys_display" remote="streak" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_packages_apps_Bluetooth" remote="streak" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" remote="streak" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="streak" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_commonsys_system_bt" remote="streak" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="streak" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="streak" />
   <project path="vendor/qcom/opensource/display" name="platform_vendor_qcom_opensource_display" remote="streak" />
