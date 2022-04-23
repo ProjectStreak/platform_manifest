@@ -87,9 +87,9 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="streak" revision="twelve-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom_media" groups="qcom" remote="streak" revision="twelve-caf-msm8998" />
-  <project path="hardware/qcom-caf/sdm660/media" name="platform_hardware_qcom_media" groups="qcom,qcom_media" remote="streak" revision="twelve-caf-sdm660" />
-  <project path="hardware/qcom-caf/sdm660/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve-caf-sdm660" />
-  <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom_display" groups="qcom,qcom_display" remote="streak" revision="twelve-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/media" name="platform_hardware_qcom_media" groups="qcom,qcom_media" remote="streak" revision="twelve.one-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve.one-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom_display" groups="qcom,qcom_display" remote="streak" revision="twelve.one-caf-sdm660" />
   <project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="streak" revision="twelve-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="streak" revision="twelve-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom_media" groups="qcom" remote="streak" revision="twelve-caf-sdm845" />
