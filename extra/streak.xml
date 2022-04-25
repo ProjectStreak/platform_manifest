@@ -12,6 +12,7 @@
   <!-- rootdir -->
   <project path="manifest" name="platform_manifest" remote="streak" />
   <project path="bionic" name="platform_bionic" remote="streak" />
+  <project path="streak_ota" name="streak_ota" remote="streak" />
 
   <!-- bootable -->
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="streak" />
