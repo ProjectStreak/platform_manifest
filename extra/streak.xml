@@ -119,7 +119,9 @@
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="streak" />
   <project path="packages/modules/adb" name="platform_packages_modules_adb" remote="streak" />
   <project path="packages/modules/common" name="platform_packages_modules_common" remote="streak" />
+  <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="streak" />
   <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="streak" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="streak" />
 
   <!-- prebuilts -->
   <project path="prebuilts/tools-streak" name="platform_prebuilts_tools-streak" remote="streak" />
