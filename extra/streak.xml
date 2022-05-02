@@ -141,7 +141,6 @@
   <!-- vendor -->
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="streak" />
   <project path="vendor/gapps" name="platform_vendor_gapps" remote="streak-gitlab" />
-  <project path="vendor/google/sounds/" name="platform_vendor_google_sounds" remote="streak" />
   <project path="vendor/qrcode/zxing" name="platform_vendor_qrcode_zxing" remote="streak">
     <linkfile src="zxing-android-embedded/res-orig/*" dest="vendor/support/res-orig" />
     <linkfile src="zxing-android-embedded/res/*" dest="vendor/support/res-qr" />
