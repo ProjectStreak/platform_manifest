@@ -114,6 +114,7 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="streak" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="streak" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="streak" />
+  <project path="packages/apps/SimpleDeviceConfig" name="platform_packages_apps_SimpleDeviceConfig" remote="streak" />
   <project path="packages/apps/StreakPrebuilts" name="platform_packages_apps_StreakPrebuilts" remote="streak" />
   <project path="packages/apps/StreakTweaks" name="platform_packages_apps_StreakTweaks" remote="streak" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="streak" />
