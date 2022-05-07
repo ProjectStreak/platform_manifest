@@ -152,10 +152,13 @@
   <project path="vendor/themes" name="platform_vendor_themes" remote="streak" />
 
   <!-- vendor/nxp -->
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="streak"/>
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="streak" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="streak" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="streak" />
+  <project path="vendor/nxp/nfc" name="platform_vendor_nxp_nfc" remote="streak" />
+  <project path="vendor/nxp/secure_element" name="platform_vendor_nxp_secure_element" remote="streak" />
+  <project path="vendor/nxp/secure_element_extns" name="platform_vendor_nxp_secure_element_extns" remote="streak" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_opensource_interfaces_nfc" remote="streak"/>
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_commonsys_external_libnfc-nci" remote="streak" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform_vendor_nxp_opensource_commonsys_frameworks" remote="streak" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform_vendor_nxp_opensource_commonsys_packages_apps_Nfc" remote="streak" />
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="streak" revision="twelve.one-pn5xx" />
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="streak" revision="twelve.one-pn5xx" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="streak" revision="twelve.one-sn100x" />
