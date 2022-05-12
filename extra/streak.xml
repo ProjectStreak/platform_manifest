@@ -143,6 +143,7 @@
   <!-- vendor -->
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="streak" />
   <project path="vendor/google/gms" name="platform_vendor_google_gms" remote="streak-gitlab" />
+  <project path="vendor/google/pixel" name="platform_vendor_google_pixel" remote="streak-gitlab" />
   <project path="vendor/qrcode/zxing" name="platform_vendor_qrcode_zxing" remote="streak">
     <linkfile src="zxing-android-embedded/res-orig/*" dest="vendor/support/res-orig" />
     <linkfile src="zxing-android-embedded/res/*" dest="vendor/support/res-qr" />
