@@ -125,6 +125,7 @@
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="streak" />
 
   <!-- prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="platform_prebuilts_abi-dumps_vndk" remote="streak" />
   <project path="prebuilts/tools-streak" name="platform_prebuilts_tools-streak" remote="streak" />
 
   <!-- system -->
