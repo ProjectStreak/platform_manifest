@@ -25,6 +25,9 @@
   <!-- packages -->
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
 
+  <!-- prebuilts -->
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" />
+
   <!-- tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 </manifest>
