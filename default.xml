@@ -8,6 +8,12 @@
   <default revision="refs/tags/android-12.1.0_r5"
            remote="aosp" />
 
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
   <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r5" />
   <contactinfo bugurl="go/repo-bug" />
 
